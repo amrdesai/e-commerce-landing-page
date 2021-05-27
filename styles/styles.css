@@ -52,6 +52,31 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    color: rgb(186, 195, 214);
+    font-weight: bold;
+}
+
+/* Navbar: Search Bar */
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 500px;
+    height: 28px;
+    border-radius: 3px;
+    margin: 0 16px 0 60px;
+    padding: 0 16px;
+    border-color: #fff;
+}
+
+.search input:focus {
+    outline: none;
+    border-color: var(--main-bg-color);
+}
+
 /* Main Content */
 .container {
     min-height: calc(100vh - 60px - 10vh);
