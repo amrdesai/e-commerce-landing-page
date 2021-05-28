@@ -64,7 +64,7 @@ nav ul li a:hover {
 }
 
 .search input {
-    width: 500px;
+    width: 25vw;
     height: 28px;
     border-radius: 3px;
     margin: 0 16px 0 60px;
@@ -81,6 +81,7 @@ nav ul li a:hover {
 .slider {
     margin: 12px auto;
     width: 80vw;
+    overflow: hidden;
 }
 
 .container {
