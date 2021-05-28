@@ -96,6 +96,7 @@ nav ul li a:hover {
 .cards {
     display: flex;
     justify-content: space-around;
+    overflow: hidden;
 }
 
 .card-item {
